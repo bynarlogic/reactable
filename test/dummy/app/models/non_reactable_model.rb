@@ -1,0 +1,2 @@
+class NonReactableModel < ApplicationRecord
+end

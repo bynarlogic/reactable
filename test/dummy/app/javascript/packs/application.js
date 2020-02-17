@@ -13,3 +13,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree .
+// Support component names relative to this directory:
+var componentRequireContext = require.context("components", true);
+var ReactRailsUJS = require("react_ujs");
+ReactRailsUJS.useContext(componentRequireContext);

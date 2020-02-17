@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  acts_as_reactable
+  acts_as_reactable 
 end
